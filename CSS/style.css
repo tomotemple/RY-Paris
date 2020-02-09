@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.page {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.banner {
+    background-color: #E7A72F;
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 70px;
+}
+
+.banner ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+
+}
+
+.banner ul li {
+    margin: 13px;
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.eyecatcher {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 495px;
+}
+
+#catcher1 {
+    background-image: url("../images/hero-image.jpg");
+}
+
+.subhead {
+    background-color: white;
+    padding: 5px 50px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;}
+
+.lining {
+    margin: 50px 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lining2 {
+    margin: 20px 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caption {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: white;
+}
+
+#catagory1 {
+    height: 200px;
+    width: 270px;
+    background-image: url("../images/breakfast-ideas.jpg");
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#catagory2 {
+    height: 200px;
+    width: 270px;
+    background-image: url("../images/vegetarian-ideas.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+#catagory3 {
+    height: 200px;
+    width: 270px;
+    background-image: url("../images/cold-weather-dinners.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.back-color{
+    background-color: #dcdcdc;
+    padding: 5px 0;
+}
+
+.back-color2 {
+    background-color: gainsboro;
+    padding: 5px 80px;
+}
+
+.lining{
+    bordeolid;
+    bord:red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#recipe1 {
+    background-image: url("../images/fajita-peppers.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 170px;
+    width: 190px;
+}
+
+#recipe2 {
+    background-image: url("../images/muffins.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 170px;
+    width: 190px;
+
+}
+
+#recipe3 {
+    background-image: url("../images/eggplant-parmesan.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 170px;
+    width: 190px;
+
+}
+
+#recipe4 {
+    background-image: url("../images/teriyaki-chicken.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 170px;
+    width: 190px;
+}
+
+#best1 {
+    background-image: url("../images/burger.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    width: 260px;
+    border: 6px solid #dcdcdc;
+}
+
+#best2 {
+    background-image: url("../images/pizza.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    width: 260px;
+    border: 6px solid #dcdcdc;
+}
+
+#best3 {
+    background-image: url("../images/tomato.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    width: 260px;
+    border: 6px solid #dcdcdc;
+}
+
+#catcher2 {
+    background-image: url("../images/bengal-burger.jpg");
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.stronger {
+    font-weight: bolder;
+}
+
+table {
+    margin-top: 20px 0;
+}
+tr {
+    padding: 20px;
+    height: 30px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 250% ;
+}
+
+#printer {
+    background-image: url("../images/print.png");
+    background-size: cover;
+    background-position: center center;
+    height: 50px;
+    width: 50px;
+    border-left: 5px;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.save {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.ingredients {
+    display: flex;
+    justify-content: center;
+}
+
+.actual{
+    width: 400px;
+}
+
+.method li{
+    padding: 5px 0;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
